@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameer Sapkota | Designer • Coder • Student</title>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CSS-only floating particles -->
+    <div class="particles" aria-hidden="true">
+        <span style="--x:5%;  --y:12%; --c:#00f3ff; --s:3px; --d:16s; --dx:40px;  --dy:-70px; --dl:0s"></span>
+        <span style="--x:14%; --y:68%; --c:#ff007f; --s:2px; --d:20s; --dx:-30px; --dy:-50px; --dl:-3s"></span>
+        <span style="--x:22%; --y:30%; --c:#ffd700; --s:3px; --d:18s; --dx:50px;  --dy:60px;  --dl:-6s"></span>
+        <span style="--x:30%; --y:85%; --c:#ffffff; --s:2px; --d:22s; --dx:-40px; --dy:-80px; --dl:-2s"></span>
+        <span style="--x:37%; --y:8%;  --c:#00f3ff; --s:2px; --d:19s; --dx:30px;  --dy:70px;  --dl:-8s"></span>
+        <span style="--x:45%; --y:52%; --c:#ff007f; --s:3px; --d:17s; --dx:-50px; --dy:40px;  --dl:-5s"></span>
+        <span style="--x:52%; --y:22%; --c:#ffffff; --s:2px; --d:21s; --dx:60px;  --dy:-40px; --dl:-9s"></span>
+        <span style="--x:58%; --y:78%; --c:#ffd700; --s:3px; --d:15s; --dx:-35px; --dy:-60px; --dl:-1s"></span>
+        <span style="--x:64%; --y:40%; --c:#00f3ff; --s:2px; --d:23s; --dx:45px;  --dy:55px;  --dl:-7s"></span>
+        <span style="--x:70%; --y:92%; --c:#ff007f; --s:2px; --d:18s; --dx:-55px; --dy:-45px; --dl:-4s"></span>
+        <span style="--x:76%; --y:15%; --c:#ffd700; --s:3px; --d:20s; --dx:35px;  --dy:65px;  --dl:-10s"></span>
+        <span style="--x:82%; --y:58%; --c:#ffffff; --s:2px; --d:16s; --dx:-45px; --dy:-55px; --dl:-2s"></span>
+        <span style="--x:88%; --y:34%; --c:#00f3ff; --s:3px; --d:22s; --dx:40px;  --dy:50px;  --dl:-6s"></span>
+        <span style="--x:94%; --y:80%; --c:#ff007f; --s:2px; --d:19s; --dx:-30px; --dy:-70px; --dl:-3s"></span>
+        <span style="--x:9%;  --y:45%; --c:#ffffff; --s:2px; --d:24s; --dx:50px;  --dy:-35px; --dl:-11s"></span>
+        <span style="--x:26%; --y:56%; --c:#00f3ff; --s:2px; --d:17s; --dx:-40px; --dy:60px;  --dl:-5s"></span>
+        <span style="--x:41%; --y:35%; --c:#ffd700; --s:2px; --d:21s; --dx:35px;  --dy:-65px; --dl:-8s"></span>
+        <span style="--x:55%; --y:95%; --c:#00f3ff; --s:3px; --d:18s; --dx:-50px; --dy:-50px; --dl:-1s"></span>
+        <span style="--x:67%; --y:5%;  --c:#ff007f; --s:2px; --d:20s; --dx:45px;  --dy:70px;  --dl:-9s"></span>
+        <span style="--x:91%; --y:10%; --c:#ffd700; --s:2px; --d:16s; --dx:-35px; --dy:55px;  --dl:-4s"></span>
+        <span style="--x:3%;  --y:90%; --c:#ffd700; --s:3px; --d:22s; --dx:55px;  --dy:-60px; --dl:-7s"></span>
+        <span style="--x:48%; --y:70%; --c:#ffffff; --s:2px; --d:19s; --dx:-45px; --dy:45px;  --dl:-12s"></span>
+        <span style="--x:73%; --y:66%; --c:#00f3ff; --s:2px; --d:25s; --dx:40px;  --dy:-55px; --dl:-6s"></span>
+        <span style="--x:18%; --y:3%;  --c:#ff007f; --s:2px; --d:17s; --dx:-30px; --dy:75px;  --dl:-3s"></span>
+    </div>
+
+    <!-- Ambient glowing orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="#hero" class="brand">
+                <span class="brand-badge">SS</span>
+                <span class="brand-name">SAMEER</span>
+            </a>
+
+            <!-- Desktop menu -->
+            <nav class="desktop-nav">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#journey">Journey</a>
+                <a href="#contact" class="nav-cta">Get in Touch</a>
+            </nav>
+
+            <!-- Mobile menu (pure CSS checkbox toggle) -->
+            <input type="checkbox" id="menuToggle" class="menu-toggle" aria-label="Toggle navigation menu">
+            <label for="menuToggle" class="menu-btn" aria-hidden="true"><i class="fa-solid fa-bars-staggered"></i></label>
+
+            <div class="mobile-menu">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#journey">Journey</a>
+                <a href="#contact" class="mobile-cta">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section id="hero" class="hero">
+            <div class="avatar">
+                <div class="avatar-ring"></div>
+                <div class="avatar-core">
+                    <span class="mono">SS</span>
+                    <span class="sub">Portfolio</span>
+                </div>
+                <!-- Little speech bubble -->
+                <div class="bubble">Namaste! <span class="wave">🙏</span></div>
+                <!-- Green "online" dot -->
+                <span class="online-dot" title="Open to say hi"></span>
+            </div>
+
+            <div class="hello">
+                <span class="ping"></span>
+                <span>Hello, I'm</span>
+            </div>
+
+            <h1>Sameer Sapkota</h1>
+
+            <p class="roles">
+                <span class="r1">Designer</span>
+                <span class="dot c-pink">•</span>
+                <span class="r2">Coder</span>
+                <span class="dot c-cyan">•</span>
+                <span class="r3">Student</span>
+            </p>
+
+            <p class="hero-text">Class 11 student at Diamond Secondary School. I design and code clean, modern websites.</p>
+
+            <div class="btn-row">
+                <a href="#projects" class="btn btn-lg btn-primary">Explore Projects <i class="fa-solid fa-arrow-right" style="font-size:.875rem"></i></a>
+                <a href="#contact" class="btn btn-lg btn-gold">Get In Touch</a>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="section-head">
+                <h2>About <span class="c-cyan">Me</span></h2>
+                <div class="bar"></div>
+            </div>
+
+            <div class="grid two">
+                <div class="card about-card h-cyan">
+                    <div class="icon-box rgb-cyan"><i class="fa-solid fa-user-astronaut"></i></div>
+                    <h3>Who I Am</h3>
+                    <p class="lead">I’m Sameer, a Class 11 student who loves making things for the web.</p>
+                    <p class="body">I like tidy layouts, smooth motion, and code that’s easy to read. I’m learning something new every week and building as I go.</p>
+                </div>
+
+                <div class="card about-card h-pink">
+                    <div class="icon-box rgb-pink"><i class="fa-solid fa-compass-drafting"></i></div>
+                    <h3>My Goal</h3>
+                    <p class="lead">To build web experiences that are not only visual achievements but also lightning-fast, accessible, and intuitive to use.</p>
+                    <div class="stats">
+                        <div class="stat"><b class="c-cyan">100%</b><small>Dedication</small></div>
+                        <div class="stat"><b class="c-gold">Clean</b><small>Code Structure</small></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+            <div class="section-head">
+                <h2>What I <span class="c-gold">Do</span></h2>
+                <p>Here are the things I enjoy doing</p>
+            </div>
+
+            <div class="grid three skills">
+                <div class="card skill-card h-cyan">
+                    <div class="icon-box lg rgb-cyan"><i class="fa-solid fa-code"></i></div>
+                    <h3>Making Websites</h3>
+                    <p>I make websites with HTML, CSS and a little JavaScript. I try to keep my code neat and easy to read.</p>
+                    <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+                </div>
+
+                <div class="card skill-card h-pink">
+                    <div class="icon-box lg rgb-pink"><i class="fa-solid fa-palette"></i></div>
+                    <h3>Designing Pages</h3>
+                    <p>I like to design pages that look clean and are easy to read, with dark colors and a bit of neon glow.</p>
+                    <div class="tags"><span>Colors</span><span>Layouts</span><span>Fonts</span></div>
+                </div>
+
+                <div class="card skill-card h-gold">
+                    <div class="icon-box lg rgb-gold"><i class="fa-solid fa-gamepad"></i></div>
+                    <h3>Small Games</h3>
+                    <p>I enjoy making small games and fun things that people can click, move and play with on a page.</p>
+                    <div class="tags"><span>Games</span><span>Animation</span><span>Canvas</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <div class="section-head">
+                <h2>Featured <span class="c-cyan">Projects</span></h2>
+                <p>I have only made this portfolio so far. More projects are coming soon.</p>
+            </div>
+
+            <div class="grid three">
+                <div class="card project-card h-cyan">
+                    <div class="project-top">
+                        <div class="project-row">
+                            <span class="badge rgb-cyan">Website</span>
+                            <i class="fa-solid fa-laptop-code muted"></i>
+                        </div>
+                        <h3>My Portfolio</h3>
+                        <p>This is the website you are on right now. I made it myself with HTML and CSS.</p>
+                    </div>
+                    <div class="project-bottom">
+                        <div class="stack"><span>HTML5</span><span>•</span><span>CSS3</span></div>
+                    </div>
+                </div>
+
+                <div class="card project-card h-pink">
+                    <div class="project-top">
+                        <div class="project-row">
+                            <span class="badge rgb-pink">Soon</span>
+                            <i class="fa-solid fa-hourglass-half pulse rgb-pink"></i>
+                        </div>
+                        <h3>Coming Soon</h3>
+                        <p>I am working on something new. Please check back soon.</p>
+                    </div>
+                    <div class="project-bottom">
+                        <div class="stack"><span>Coming soon</span></div>
+                    </div>
+                </div>
+
+                <div class="card project-card h-gold">
+                    <div class="project-top">
+                        <div class="project-row">
+                            <span class="badge rgb-gold">Soon</span>
+                            <i class="fa-solid fa-hourglass-half pulse rgb-gold"></i>
+                        </div>
+                        <h3>Coming Soon</h3>
+                        <p>Another project is on the way. Stay tuned!</p>
+                    </div>
+                    <div class="project-bottom">
+                        <div class="stack"><span>Coming soon</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOURNEY -->
+        <section id="journey" class="section">
+            <div class="section-head">
+                <h2>My <span class="c-gold">Journey</span></h2>
+                <p>A short story of how I started</p>
+            </div>
+
+            <div class="timeline">
+                <div class="step left" style="--c:#00f3ff">
+                    <div class="dot-num">1</div>
+                    <span class="tag">The start</span>
+                    <h3>I found coding</h3>
+                    <p>I got curious about how websites are made, so I started learning HTML and CSS.</p>
+                </div>
+
+                <div class="step right" style="--c:#ff007f">
+                    <div class="dot-num">2</div>
+                    <span class="tag">Right now</span>
+                    <h3>I am learning JavaScript</h3>
+                    <p>I practice a little every day and make small projects, like this portfolio.</p>
+                </div>
+
+                <div class="step left" style="--c:#ffd700">
+                    <div class="dot-num">3</div>
+                    <span class="tag">Next</span>
+                    <h3>Making more projects</h3>
+                    <p>I want to build more websites and keep getting better.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <div class="contact-box">
+                <div class="icon-box rgb-cyan"><i class="fa-solid fa-paper-plane"></i></div>
+
+                <h2>Let's Build Something <span class="c-cyan">Awesome</span></h2>
+                <p>Have a project in mind, feedback on my work, or just want to say hi? Feel free to reach out directly via email or social channels!</p>
+
+                <div class="email-pill">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>sapkota.sameer11@gmail.com</span>
+                </div>
+
+                <div class="btn-row" style="gap:1rem">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sapkota.sameer11@gmail.com&su=Hello%20Sameer" target="_blank" rel="noopener noreferrer" class="btn btn-md btn-cyan">
+                        <i class="fa-solid fa-envelope-open-text"></i> Open Gmail
+                    </a>
+                    <a href="mailto:sapkota.sameer11@gmail.com?subject=Hello%20Sameer" class="btn btn-md btn-gold">
+                        <i class="fa-solid fa-paper-plane"></i> Send Email
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>© 2026 <strong>Sameer Sapkota</strong>. Crafted with passion.</div>
+            <div class="socials">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sapkota.sameer11@gmail.com&su=Hello%20Sameer" target="_blank" rel="noopener noreferrer" class="s-cyan" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://instagram.com/sameer.sapkota10" target="_blank" rel="noopener noreferrer" class="s-pink" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Ssameer10" target="_blank" rel="noopener noreferrer" class="s-cyan" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
